@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="./index.js" defer></script>
+  
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="product-container">
+   <div class="navbar">
+    <div class="left-nav">
+      <p class="left-nav-item-1 item1">Sneakers</p>
+      <p class="left-nav-item">Collection</p>
+      <p class="left-nav-item">Men</p>
+      <p class="left-nav-item">Women</p>
+      <p class="left-nav-item">About</p>
+      <p class="left-nav-item">Contact</p>
+    </div>
+    <div class="right-nav">
+      <!-- <a />
+      <input/> -->
+     <img src="./images/icon-cart.svg" id="cart-img" alt="cart-icon" />
+     <img src="./images/image-avatar.png" id="user-img" alt="user-icon"/>
+    </div>
+   </div>
+   <hr class="navbar-bottom"/>
+   <!-- <div class="navbar-bottom"></div> -->
+   <div class="product-info">
+    <div class="images-container">
+      <div class="preview-image">
+        <img id="preview-img" src="./images/image-product-1.jpg" alt="preview-image" >
+      </div>
+      <div class="sub-images">
+        <img src="./images/image-product-1-thumbnail.jpg" alt="thumbnail-image">
+        <img src="./images/image-product-2-thumbnail.jpg" alt="thumbnail-image">
+        <img src="./images/image-product-3-thumbnail.jpg" alt="thumbnail-image">
+        <img src="./images/image-product-4-thumbnail.jpg" alt="thumbnail-image">
+      </div>
+    </div>
+    <div class="product-description">
+      <p class="title">Sneaker Company</p>
+      <h2 class="subheading">Fall Limited Edition Sneakers</h2>
+      <p class="para">
+        These low-profile sneakers are your perfect casual wear companion. Featuring a 
+        durable rubber outer sole, they’ll withstand everything the weather can offer.
+      </p>
+      <div class="price-section">
+      <div class="current-pricing">
+        <p class="current-price">$125</p>
+        <p class="current-discount">50%</p>
+      </div>
+
+        <p class="previous-price">$250</p>
+      </div>
+      <!-- <p class="previous-price">$250</p> -->
+      <div class="action-buttons">
+        <!-- <button><span>-</span> <span>0</span> <span>+</span></button> -->
+        <div class="decrease-quantity">
+          <button>-</button>
+          <span class="quantity">10</span>
+          <button class="increase-quantity">+</button>
+        </div>
+        <button class="add-cart-button"><img src="./images/icon-cart.svg"/> <span>Add to cart</span></button>
+      </div>
+
+    </div>
+   </div>
+
+
+   <!-- <img src="" alt="" class="previe-image"> -->
+   <!-- <div id="unique"></div> -->
+  </div>
+
+  <!-- Collections
+  Men
+  Women
+  About
+  Contact
+
+  Sneaker Company
+
+  Fall Limited Edition Sneakers
+
+  These low-profile sneakers are your perfect casual wear companion. Featuring a 
+  durable rubber outer sole, they’ll withstand everything the weather can offer.
+
+  $125.00
+  50%
+  $250.00
+
+  0
+  Add to cart
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+  <!-- <form class="my-form" onsubmit="">
+    <input id="email" name="email" placeholder="enter your email " type="text"/>
+    <input name="password" placeholder="please enter password" type="password"/>
+    <input type="submit" value="login"/>
+  </form> -->
+</body>
+</html>
